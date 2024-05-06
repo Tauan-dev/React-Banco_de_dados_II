@@ -20,6 +20,7 @@ import AtualizarCliente from "./components/Atualizar";
 import RemoverCliente from "./components/RemoverCliente";
 import VisualizarLogsEventos from "./components/LogEventos";
 import ConfirmarPedido from "./components/ConfirmarPedido";
+import AdicionarUsuario from "./components/NewUSer";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/atualizar-cliente" element={<AtualizarCliente />} />
           <Route path="/logs-eventos" element={<VisualizarLogsEventos />} />
           <Route path="/confirmar-pedido" element={<ConfirmarPedido />} />
+          <Route path="/adicionar-usuario" element={<AdicionarUsuario />} />
         </Routes>
       </div>
     </Router>

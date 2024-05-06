@@ -7,6 +7,9 @@ function FirstComponent() {
       <h1>Bem-vindo à Pizzaria</h1>
       <nav>
         <ul>
+          <li>
+            <Link to="/adicionar-usuario"> Adicionar novo usuário</Link>
+          </li>
           <h1>Views</h1>
           <li>
             <Link to="/detailed-orders">Pedidos Cadastrados</Link>
